@@ -13,6 +13,7 @@ document.querySelector(".check").onclick = function() {
         document.querySelector("body").style.backgroundColor = "green";
         document.querySelector(".max").textContent =
             "🥇 En Yuksek Puan :" + (puan + max);
+        max = puan + max;
     } else if (input < rastgeleSayi) {
         ilkMsj.textContent = "📈 Arttir";
         puan--;
