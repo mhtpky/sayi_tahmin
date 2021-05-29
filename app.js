@@ -11,7 +11,6 @@ document.querySelector(".check").onclick = function() {
         ilkMsj.textContent = "🎉 Tebrikler Bildiniz 👏";
         document.querySelector(".div").textContent = rastgeleSayi;
         document.querySelector("body").style.backgroundColor = "green";
-        document.querySelector(".max").textContent = "🥇 En Yuksek Puan :" + max;
         document.querySelector(".max").textContent =
             "🥇 En Yuksek Puan :" + (puan + max);
     } else if (input < rastgeleSayi) {
