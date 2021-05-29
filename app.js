@@ -31,8 +31,7 @@ document.querySelector(".check").onclick = function() {
 };
 
 document.querySelector(".tekrar").onclick = function() {
-    document.querySelector(".check").disabled = false;
-    let rastgeleSayi = Math.floor(Math.random() * 20);
+    rastgeleSayi = Math.floor(Math.random() * 20);
     document.querySelector(".puan").textContent = "💯 Puan :" + puan;
     puan = 10;
     document.querySelector(".puan").textContent = "💯 Puan :" + puan;
